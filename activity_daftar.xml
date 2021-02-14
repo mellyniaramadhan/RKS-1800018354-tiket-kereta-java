@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.traveloka.MainActivity"
+    android:background="#83DEFF">
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="TRAVELOKA"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="90px"
+        android:textColor="#FFFFFF"
+        android:background="#00"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/keretak"/>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="70dp"
+        android:background="#00"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/login"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/gembok"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="140dp"
+        android:background="#FFFFFF"
+        android:hint="Masukkan Username"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/tlpemail"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="140dp"
+        android:background="#FFFFFF"
+        android:hint="Masukkan E-mail"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="140dp"
+        android:background="#FFFFFF"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btndaftar"
+            android:onClick="@+id/btndaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="570dp"
+            android:background="#2FB53D"
+            android:text="DAFTAR"
+            android:textColor="#FFFFFF"
+            android:textSize="100px" />
+
+    </GridLayout>
+
+</RelativeLayout>
